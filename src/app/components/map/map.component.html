@@ -1,0 +1,6 @@
+<div *ngIf="!viewMode">
+    <button (click)="save()">SAVE</button>
+    <button (click)="clear()">CLEAR</button>
+    <input type="text" #name value="Name">
+</div>
+<canvas #map class="map" width="1300" height="740" (click)="addPoint($event)" ></canvas>

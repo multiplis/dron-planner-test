@@ -1,0 +1,8 @@
+
+<ul>
+    <li><button class="add-new" (click)=addNew()>ADD NEW</button></li>
+    <li *ngFor="let plan of plans">
+        <button  class="plan" (click)="showPlan(plan.id)">{{plan.name}}</button> 
+        <button class="remove-plan"(click)=remove(plan.id)>-</button></li>
+</ul>
+

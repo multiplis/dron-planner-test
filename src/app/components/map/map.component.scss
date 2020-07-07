@@ -1,0 +1,10 @@
+:host{
+    width: 75%;
+    // display: flex;
+}
+.map{
+    background: url(../../../assets/map.jpg) no-repeat center center ;
+    background-size: cover;
+    cursor: crosshair;
+    overflow: scroll;
+}

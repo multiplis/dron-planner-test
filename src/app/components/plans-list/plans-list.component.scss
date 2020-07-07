@@ -1,0 +1,38 @@
+:host{
+    display: flex;
+    width:25%;
+}
+ul{
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+
+li{
+    width:100%;
+    border-bottom: 1px solid black;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+button{
+    border: none;
+}
+.add-new{
+    width: 100%;
+    background-color: darkcyan;
+    color: #fff;
+}
+.plan{
+    width: 100%;
+}
+.remove-plan{
+    width: 50px;
+    background-color: rgb(241, 70, 70);
+    opacity: 0.5;
+    color: #fff;
+    font-size: 20px;
+    &:hover{
+    opacity: 0.8;
+    }
+}
